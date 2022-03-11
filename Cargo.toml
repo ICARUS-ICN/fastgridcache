@@ -1,5 +1,5 @@
 [package]
-author = "Miguel Rodríguez Pérez <miguel@det.uvigo.gal>"
+authors = ["Miguel Rodríguez Pérez <miguel@det.uvigo.gal>"]
 name = "fastgridcache"
 version = "0.1.0"
 edition = "2021"
