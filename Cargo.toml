@@ -1,0 +1,10 @@
+[package]
+author = "Miguel Rodríguez Pérez <miguel@det.uvigo.gal>"
+name = "fastgridcache"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+exitcode = "1.1.2"
+itertools = "0.10.3"
+num = "0.4.0"
