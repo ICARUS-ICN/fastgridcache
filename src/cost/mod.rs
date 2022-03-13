@@ -137,3 +137,37 @@ where
         _ => 0,
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use crate::get_cost;
+
+    #[test]
+    fn square_100_100_3() {
+        let w = [36u8, 73, 100];
+        let h = [59, 100];
+
+        assert_eq!(get_cost(w, h), 537857);
+    }
+    #[test]
+    fn grid_100_80_4() {
+        let h = [44u8, 74, 100];
+        let w = [29, 58, 80];
+
+        assert_eq!(get_cost(w, h), 350224);
+    }
+    #[test]
+    fn grid_100_40_3() {
+        let w = [25u8, 50, 75, 100];
+        let h = [40];
+
+        assert_eq!(get_cost(w, h), 126075);
+    }
+    #[test]
+    fn grid_100_40_4() {
+        let w = [32u8, 54, 77, 100];
+        let h = [20, 40];
+
+        assert_eq!(get_cost(w, h), 114617);
+    }
+}
