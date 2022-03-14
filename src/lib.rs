@@ -21,5 +21,9 @@
  */
 
 pub mod cost;
+mod filtered_slice;
+mod gridsearcher;
 
 pub use cost::get_cost;
+pub use gridsearcher::get_cache_locations;
+pub use gridsearcher::Solution;
