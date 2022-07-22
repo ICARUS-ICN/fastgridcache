@@ -1,6 +1,8 @@
 Fast In-Axis Cache Placement Algorithm for Grid-Like NDN Networks 
 ===
 
+[![build](https://github.com/ICARUS-ICN/fastgridcache/actions/workflows/build.yml/badge.svg)](https://github.com/ICARUS-ICN/fastgridcache/actions/workflows/build.yml)
+
 Overview
 ---
 
