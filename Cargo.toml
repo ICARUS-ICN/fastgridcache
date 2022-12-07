@@ -5,7 +5,7 @@ version = "0.1.1"
 edition = "2021"
 
 [dependencies]
-clap = { version = "3.2.7", features = ["derive", "wrap_help"] }
+clap = { version = "3.2.23", features = ["derive", "wrap_help"] }
 exitcode = "1.1.2"
-itertools = "0.10.3"
-rayon = "1.5.3"
+itertools = "0.10.5"
+rayon = "1.6.0"
