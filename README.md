@@ -10,7 +10,9 @@ This is a tool to compute the optimal cache locations in a grid-like topology as
 that the caches are to be placed in the axis and that there is a producer at the center
 of the grid.
 
-The behavior of the in-axis placement strategy is to be described in a forthcoming academic article.
+The behavior of the in-axis placement strategy is described in the article
+[Cache Placement in an NDN Based LEO Satellite Network
+Constellation](https://doi.org/10.1109/TAES.2022.3227530).
 
 Usage
 ---
@@ -20,11 +22,11 @@ Usage
 ### Options:
 
 
-    -c, --hide-cost            
+    -c, --hide-cost
     -h, --height <HEIGHT>      Height of the network grid
         --help                 Print help information
     -n, --ncaches <NCACHES>    Number of caches [default: 0]
-    -s, --show-caches          
+    -s, --show-caches
     -V, --version              Print version information
     -w, --width <WIDTH>        Width of the network grid
 
