@@ -94,7 +94,7 @@ mod tests {
     #[test]
     fn create_view_from_slice() {
         let array = vec![0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-        let mut res = FilteredSlice::create((&array[2..6]).to_owned(), [0, 1, 3]);
+        let mut res = FilteredSlice::create((array[2..6]).to_owned(), [0, 1, 3]);
 
         assert_eq!(res.len(), 3);
         assert_eq!(res[1], 3);
