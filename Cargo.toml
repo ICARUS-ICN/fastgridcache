@@ -1,11 +1,11 @@
 [package]
 authors = ["Miguel Rodríguez Pérez <miguel@det.uvigo.gal>"]
 name = "fastgridcache"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 
 [dependencies]
-clap = { version = "3.2.23", features = ["derive", "wrap_help"] }
+clap = { version = "4.0", features = ["derive", "wrap_help"] }
 exitcode = "1.1.2"
 itertools = "0.10.5"
 rayon = "1.6.0"

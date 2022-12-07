@@ -22,12 +22,12 @@
 
 use std::process::exit;
 
-use clap::StructOpt;
+use clap::Parser;
 use fastgridcache::get_cache_locations;
 
 use rayon::iter::{IntoParallelIterator, ParallelIterator};
 
-#[derive(clap::Parser, Debug)]
+#[derive(Parser, Debug)]
 #[clap(author, version, about, long_about = None)]
 struct Args {
     /// Width of the network grid
@@ -35,7 +35,7 @@ struct Args {
     width: u64,
 
     /// Height of the network grid
-    #[clap(short, long)]
+    #[clap(short = 'e', long)]
     height: u64,
 
     /// Number of caches

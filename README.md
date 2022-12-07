@@ -23,7 +23,7 @@ Usage
 
 
     -c, --hide-cost
-    -h, --height <HEIGHT>      Height of the network grid
+    -e, --height <HEIGHT>      Height of the network grid
         --help                 Print help information
     -n, --ncaches <NCACHES>    Number of caches [default: 0]
     -s, --show-caches
