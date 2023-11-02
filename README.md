@@ -33,7 +33,7 @@ Usage
 
 ---
 ### Legal:
-Copyright ⓒ 2021–2022 Universidade de Vigo<br>
+Copyright ⓒ 2021–2023 Universidade de Vigo<br>
 Author: Miguel Rodríguez Pérez <miguel@det.uvigo.gal>.<br>
 This software is licensed under the GNU General Public License, version 3 (GPL-3.0) or later. For information see LICENSE.
 
